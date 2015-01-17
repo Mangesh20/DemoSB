@@ -30,6 +30,8 @@
     if (sender.tag) { //when tag is one
         sender.tag = 0 ;
         self.verticalConstraint.constant = 300;
+        self.height.constant = 58;
+        self.width.constant  = 58;
         self.centreAlignment.constant = 0;
         [UIView animateWithDuration:1.5
                          animations:^{
@@ -41,6 +43,8 @@
         sender.tag = 1 ;
         self.verticalConstraint.constant = 10;
         self.centreAlignment.constant = -50;
+        self.height.constant = 158;
+        self.width.constant  = 158;
 
         [UIView animateWithDuration:1.5
                          animations:^{

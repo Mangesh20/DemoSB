@@ -16,6 +16,8 @@
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *verticalConstraint;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *centreAlignment;
 
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *height;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *width;
 
 @end
 

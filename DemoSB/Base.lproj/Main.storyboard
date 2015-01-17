@@ -16,16 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rg0-bN-7CV">
-                                <rect key="frame" x="250" y="72" width="100" height="100"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="7cv-xb-gtR"/>
-                                    <constraint firstAttribute="width" constant="100" id="sby-3S-JaZ"/>
-                                </constraints>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bfd-iU-IuH">
-                                <rect key="frame" x="271" y="271" width="58" height="58"/>
+                                <rect key="frame" x="271" y="270" width="58" height="58"/>
                                 <color key="backgroundColor" red="0.85098046059999999" green="0.83529418710000003" blue="0.32549020649999999" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="58" id="1TG-dk-nMW"/>
@@ -48,21 +40,15 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="Bfd-iU-IuH" secondAttribute="centerX" id="Odb-5Z-lKt"/>
-                            <constraint firstAttribute="centerX" secondItem="Rg0-bN-7CV" secondAttribute="centerX" id="R3W-fR-l4K"/>
-                            <constraint firstItem="Bfd-iU-IuH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="251" id="U7R-J2-dnx"/>
-                            <constraint firstItem="Rg0-bN-7CV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="52" id="ZSc-cG-52Z"/>
+                            <constraint firstItem="Bfd-iU-IuH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="250" id="U7R-J2-dnx"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="Rg0-bN-7CV"/>
-                            </mask>
-                        </variation>
                     </view>
                     <connections>
                         <outlet property="buttonMove" destination="Bfd-iU-IuH" id="850-MI-wBj"/>
                         <outlet property="centreAlignment" destination="Odb-5Z-lKt" id="9JD-gr-UF0"/>
-                        <outlet property="destinationView" destination="Rg0-bN-7CV" id="qbJ-YG-vcd"/>
+                        <outlet property="height" destination="1TG-dk-nMW" id="4dm-kZ-Pmq"/>
                         <outlet property="verticalConstraint" destination="U7R-J2-dnx" id="Y09-Rw-5dL"/>
+                        <outlet property="width" destination="xHE-CT-M0C" id="Gfd-gP-q1d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
